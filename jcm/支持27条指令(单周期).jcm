@@ -1,0 +1,61 @@
+{
+	"version": "1.0.0",
+	"flag": "JCM",
+	"data": [
+		{
+			"key": 0,
+			"instruction": "100001B7",
+			"command": "lui x3 0x10000"
+		},
+		{
+			"key": 4,
+			"instruction": "55500513",
+			"command": "addi x10 x0 1365"
+		},
+		{
+			"key": 8,
+			"instruction": "00A1A623",
+			"command": "sw x10 12 x3"
+		},
+		{
+			"key": 12,
+			"instruction": "10000297",
+			"command": "auipc x5 0x10000"
+		},
+		{
+			"key": 16,
+			"instruction": "0002A303",
+			"command": "lw x6 0 x5"
+		},
+		{
+			"key": 20,
+			"instruction": "FEA318E3",
+			"command": "bne x6 x10 -16"
+		},
+		{
+			"key": 24,
+			"instruction": "008000EF",
+			"command": "jal x1 8"
+		},
+		{
+			"key": 28,
+			"instruction": "FE208EE3",
+			"command": "beq x1 x2 -4"
+		},
+		{
+			"key": 32,
+			"instruction": "00000117",
+			"command": "auipc x2 0x0"
+		},
+		{
+			"key": 36,
+			"instruction": "00C10113",
+			"command": "addi x2 x2 12"
+		},
+		{
+			"key": 40,
+			"instruction": "000080E7",
+			"command": "jalr x1 x1 0"
+		}
+	]
+}
