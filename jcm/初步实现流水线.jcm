@@ -1,0 +1,36 @@
+{
+	"version": "1.0.0",
+	"flag": "JCM",
+	"data": [
+		{
+			"key": 0,
+			"instruction": "11100093",
+			"command": "addi x1 x0 273"
+		},
+		{
+			"key": 4,
+			"instruction": "22206113",
+			"command": "ori x2 x0 546"
+		},
+		{
+			"key": 8,
+			"instruction": "33304193",
+			"command": "xori x3 x0 819"
+		},
+		{
+			"key": 12,
+			"instruction": "00209213",
+			"command": "slli x4 x1 2"
+		},
+		{
+			"key": 16,
+			"instruction": "003102B3",
+			"command": "add x5 x2 x3"
+		},
+		{
+			"key": 20,
+			"instruction": "FE2096E3",
+			"command": "bne x1 x2 -20"
+		}
+	]
+}

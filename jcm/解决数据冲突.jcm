@@ -1,0 +1,46 @@
+{
+	"version": "1.0.0",
+	"flag": "JCM",
+	"data": [
+		{
+			"key": 0,
+			"instruction": "00100093",
+			"command": "addi x1 x0 1"
+		},
+		{
+			"key": 4,
+			"instruction": "00200113",
+			"command": "addi x2 x0 2"
+		},
+		{
+			"key": 8,
+			"instruction": "00300193",
+			"command": "addi x3 x0 3"
+		},
+		{
+			"key": 12,
+			"instruction": "00500293",
+			"command": "addi x5 x0 5"
+		},
+		{
+			"key": 16,
+			"instruction": "00108233",
+			"command": "add x4 x1 x1"
+		},
+		{
+			"key": 20,
+			"instruction": "00210233",
+			"command": "add x4 x2 x2"
+		},
+		{
+			"key": 24,
+			"instruction": "00318233",
+			"command": "add x4 x3 x3"
+		},
+		{
+			"key": 28,
+			"instruction": "40428333",
+			"command": "sub x6 x5 x4"
+		}
+	]
+}
