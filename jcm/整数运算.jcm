@@ -1,0 +1,151 @@
+{
+	"version": "1.0.0",
+	"flag": "JCM",
+	"data": [
+		{
+			"instruction": "55500893",
+			"command": "addi x17 x0 1365",
+			"key": 0
+		},
+		{
+			"instruction": "01489893",
+			"command": "slli x17 x17 20",
+			"key": 4
+		},
+		{
+			"instruction": "5558E893",
+			"command": "ori x17 x17 1365",
+			"key": 8
+		},
+		{
+			"instruction": "99900513",
+			"command": "addi x10 x0 -1639",
+			"key": 12
+		},
+		{
+			"instruction": "01451593",
+			"command": "slli x11 x10 20",
+			"key": 16
+		},
+		{
+			"instruction": "6665E913",
+			"command": "ori x18 x11 1638",
+			"key": 20
+		},
+		{
+			"instruction": "011979B3",
+			"command": "and x19 x18 x17",
+			"key": 24
+		},
+		{
+			"instruction": "00098993",
+			"command": "addi x19 x19 0",
+			"key": 28
+		},
+		{
+			"instruction": "01196A33",
+			"command": "or x20 x18 x17",
+			"key": 32
+		},
+		{
+			"instruction": "000A0A13",
+			"command": "addi x20 x20 0",
+			"key": 36
+		},
+		{
+			"instruction": "01194AB3",
+			"command": "xor x21 x18 x17",
+			"key": 40
+		},
+		{
+			"instruction": "000A8A93",
+			"command": "addi x21 x21 0",
+			"key": 44
+		},
+		{
+			"instruction": "01190B33",
+			"command": "add x22 x18 x17",
+			"key": 48
+		},
+		{
+			"instruction": "000B0B13",
+			"command": "addi x22 x22 0",
+			"key": 52
+		},
+		{
+			"instruction": "41190BB3",
+			"command": "sub x23 x18 x17",
+			"key": 56
+		},
+		{
+			"instruction": "000B8B93",
+			"command": "addi x23 x23 0",
+			"key": 60
+		},
+		{
+			"instruction": "01500E13",
+			"command": "addi x28 x0 21",
+			"key": 64
+		},
+		{
+			"instruction": "01C912B3",
+			"command": "sll x5 x18 x28",
+			"key": 68
+		},
+		{
+			"instruction": "00028293",
+			"command": "addi x5 x5 0",
+			"key": 72
+		},
+		{
+			"instruction": "00C00E13",
+			"command": "addi x28 x0 12",
+			"key": 76
+		},
+		{
+			"instruction": "41C95333",
+			"command": "sra x6 x18 x28",
+			"key": 80
+		},
+		{
+			"instruction": "00030313",
+			"command": "addi x6 x6 0",
+			"key": 84
+		},
+		{
+			"instruction": "01C953B3",
+			"command": "srl x7 x18 x28",
+			"key": 88
+		},
+		{
+			"instruction": "00038393",
+			"command": "addi x7 x7 0",
+			"key": 92
+		},
+		{
+			"instruction": "02400E13",
+			"command": "addi x28 x0 36",
+			"key": 96
+		},
+		{
+			"instruction": "41C8D433",
+			"command": "sra x8 x17 x28",
+			"key": 100
+		},
+		{
+			"instruction": "00040413",
+			"command": "addi x8 x8 0",
+			"key": 104
+		},
+		{
+			"instruction": "01C8D4B3",
+			"command": "srl x9 x17 x28",
+			"key": 108
+		},
+		{
+			"instruction": "00048493",
+			"command": "addi x9 x9 0",
+			"key": 112
+		}
+	]
+}

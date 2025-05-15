@@ -1,0 +1,36 @@
+{
+	"version": "1.0.0",
+	"flag": "JCM",
+	"data": [
+		{
+			"key": 0,
+			"instruction": "00100913",
+			"command": "addi x18 x0 1"
+		},
+		{
+			"key": 4,
+			"instruction": "01202423",
+			"command": "sw x18 8 x0"
+		},
+		{
+			"key": 8,
+			"instruction": "00802983",
+			"command": "lw x19 8 x0"
+		},
+		{
+			"key": 12,
+			"instruction": "01299A33",
+			"command": "sll x20 x19 x18"
+		},
+		{
+			"key": 16,
+			"instruction": "FF3A08E3",
+			"command": "beq x20 x19 -16"
+		},
+		{
+			"key": 20,
+			"instruction": "FF3906E3",
+			"command": "beq x18 x19 -20"
+		}
+	]
+}
